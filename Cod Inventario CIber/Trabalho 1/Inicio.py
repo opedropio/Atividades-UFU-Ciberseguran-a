@@ -32,7 +32,7 @@ while True:
 print(" REALIZE O LOGIN")
 
 while True:
-    usuario_login = input("Usuário: ")
+    usuario_login = print(f"Usuário:{nome} ")
     senha_login = input("Senha: ")
 
     if senha_login == senha_criada:
