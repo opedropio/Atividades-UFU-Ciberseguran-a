@@ -248,52 +248,7 @@ while True:
 
 
 
-"""
 
-
-lista = ['notebook', 'mouse', 'roteador', 'adaptador']
-
-while True:
-    print ('Selecione uma opção')
-    opcao = input ("[i]nserir [a]pagar [l]istar [s]air: ").lower()
-
-    if opcao == "i":
-       valor = input ("Ativo: ")
-       lista.append(valor)
-
-       print(f"{valor} adicionado com sucesso!")
-
-    elif opcao == "a":
-        valor = input("Qual ativo deseja apagar? ")
-
-        if valor in lista:
-            lista.remove(valor)
-            print(f"{valor} removido com sucesso!")
-        else:
-            print("Ativo não encontrado.")
-
-
-    elif opcao == "l":
-       if len(lista) == 0:
-          print ("Nada para listar")
-    
-       else:
-           print("\n===== ATIVOS CADASTRADOS =====")
-
-           for i, valor in enumerate(lista):
-               print(i, valor)
-
-    elif opcao == "s":
-
-        print("Encerrando inventário...")
-        break
-
-    else: 
-        print("Por favor, escolha i, a,  l ou s.")
-
-#O SISTEMA PERMITE O USUARIO INSERIR, APAGAR, LISTAR ATIVOS DO INVENTARIO 
-
-"""
 
 
 
