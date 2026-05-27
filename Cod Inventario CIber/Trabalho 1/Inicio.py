@@ -36,15 +36,103 @@ while True:
     senha_login = input("Senha: ")
 
     if senha_login == senha_criada:
-        print(f'{usuario_login}, login realizado com sucesso!')
+        print(f'{nome}, login realizado com sucesso!')
         break
     else: 
         print(f'{usuario_login}, sua senha está incorreta.')
         print("Tente novamente...\n")
-
+print("Bem-vindo ao Inventário de Cibersegurança - UFU")
 # USUARIO CADASTRADO, IDENTIFICADO COM SENHA E COM ACESSO AO INVENTARIO 
 
-print("Bem-vindo ao Inventário de Cibersegurança - UFU")
+
+#MENU DE ACESSO AO INVENTARIO 
+
+ativos = {}
+
+def menu():
+    print("\n ----- LISTA DE ATIVOS INVENTARIO CIBER -----")
+    print("1 - Inserir").lower()
+    print("2 - Listar").lower()
+    print("3 - Responsavel").lower()
+    print("4 - Remover").lower()
+    print("5 - Sair").lower()
+
+def cadastrar_ativos(ativos):
+    try:
+        id_ativos = int(input("ID do Ativo "))
+
+        if id_ativos in ativos:
+            print("ID já cadastrado")
+            return
+        objeto = input ("Nome do ativo: ")
+        responsavel = input("Responsavel pelo ativo: ")
+        vulnerabilidade = input ("Vulnerabilidade do ativo: ")
+        
+        ativos[id_ativos] = {
+            "Ativo": objeto,
+            "Responsável": responsavel,
+            "Vulnerabilidade": vulnerabilidade
+        }
+
+        print(f'{ativo} cadastrado com sucesso!')
+
+    except ValueError:
+        print("Ativo inválido.")
+
+cadastrar_ativos(ativos)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+
 
 lista = ['notebook', 'mouse', 'roteador', 'adaptador']
 
@@ -88,7 +176,7 @@ while True:
 
 #O SISTEMA PERMITE O USUARIO INSERIR, APAGAR, LISTAR ATIVOS DO INVENTARIO 
 
-
+"""
 
 
 
