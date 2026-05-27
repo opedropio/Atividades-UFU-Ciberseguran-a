@@ -1,0 +1,2 @@
+1;Python;Software;Pedro;Baixa ;Baixa
+2;Tela;Hardware;Pedro;Alta;Alta
