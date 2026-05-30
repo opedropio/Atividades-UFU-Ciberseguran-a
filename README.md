@@ -1,30 +1,29 @@
-# Atividades UFU - Bacharelado em Cibersegurança
+# Cybersecurity Learning Lab | UFU
 
-Repositório destinado ao armazenamento e versionamento das atividades, projetos, exercícios e estudos desenvolvidos ao longo do curso de Bacharelado em Cibersegurança da Universidade Federal de Uberlândia (UFU).
+Repositório dedicado aos projetos, exercícios e atividades desenvolvidos durante minha formação em Bacharelado em Cibersegurança na Universidade Federal de Uberlândia (UFU).
 
-## Objetivos
+Este espaço documenta minha evolução técnica em programação, segurança da informação, análise de vulnerabilidades, gestão de ativos, automação e desenvolvimento de soluções voltadas à área de cibersegurança.
 
-- Consolidar conhecimentos em programação e desenvolvimento seguro.
-- Aplicar conceitos de segurança da informação e cibersegurança.
-- Documentar a evolução acadêmica e prática durante a graduação.
-- Manter um portfólio organizado dos projetos desenvolvidos.
+## Áreas de Estudo
 
-## Conteúdo
+- Programação Python
+- Segurança da Informação
+- Gestão de Ativos de TI
+- Análise de Vulnerabilidades
+- Automação de Processos
+- Versionamento com Git e GitHub
+- Estruturas de Dados
+- Desenvolvimento Seguro
 
-- Exercícios de programação em Python
-- Projetos acadêmicos
-- Sistemas de inventário e gestão de ativos
-- Estudos de segurança da informação
-- Análises de vulnerabilidades
-- Automação e scripts
+## Projetos em Destaque
 
-## Tecnologias Utilizadas
+- Sistema de Inventário de Ativos de Cibersegurança
+- Exercícios de Programação em Python
+- Estudos Práticos de Segurança
 
-- Python
-- Git
-- GitHub
-- JSON
-- Conceitos de Cibersegurança
+## Objetivo
+
+Construir um portfólio técnico que demonstre a aplicação prática dos conhecimentos adquiridos durante a graduação e o desenvolvimento contínuo na área de tecnologia e cibersegurança.
 
 ---
-Desenvolvido durante o curso de Bacharelado em Cibersegurança - UFU.
+Universidade Federal de Uberlândia (UFU)
